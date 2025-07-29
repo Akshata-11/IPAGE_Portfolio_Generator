@@ -1,0 +1,65 @@
+/* .container {
+  background-color: #ffff;
+} */
+.grid-style {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  /* background-color: black; */
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+.portfolio {
+  grid-column: 1/-1;
+}
+.herosection {
+  background-color: #faedcd;
+}
+.skill {
+  background-color: #faedcd;
+}
+.aboutme {
+  padding: 0px;
+  background-color: #d4a373;
+}
+.portfolio-col {
+  background-color: #faedcd;
+}
+.service {
+  background-color: #d4a373;
+}
+.testimonials {
+  background-color: #faedcd;
+}
+.blog {
+  background-color: #faedcd;
+}
+.contact {
+  background-color: #faedcd;
+}
+section {
+  padding: 10px;
+  margin: 0;
+}
+.head {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional */
+  width: 950px;
+  border-radius: 50px;
+  /* position: fixed;
+  height: 50px;
+  background-color: rgb(59, 49, 49);
+  
+  padding: 0;
+  margin: 0; */
+}
+.icon {
+  width: 10px;
+  height: 10px;
+}

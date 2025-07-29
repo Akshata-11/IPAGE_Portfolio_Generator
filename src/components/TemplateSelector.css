@@ -1,0 +1,15 @@
+h2 {
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 32px;
+}
+
+.template {
+  border-radius: 50px;
+  width: 300px;
+  padding: 0px;
+  background-color: #ffc078;
+}
+img {
+  border-radius: 50px;
+}

@@ -1,0 +1,20 @@
+section {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.hero {
+  font-weight: 500;
+}
+
+.name {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 16px;
+}
+.tag {
+  font-size: 10px;
+}

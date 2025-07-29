@@ -1,0 +1,30 @@
+.cdiv {
+  background-color: #ffd500;
+  /* border: 1px solid #219ebc;
+  border-radius: 20px;
+  margin: 12px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.mdiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aboutme {
+  grid-column: 1/-1;
+  /* background-color: #48cae4; */
+}
+.skills {
+  background-color: #ffe066;
+}
+.portfolio-1 {
+  background-color: #ffe066;
+}
+.blog {
+  background-color: #ffe066;
+}
+
+.contact {
+  background-color: #ffe066;
+}

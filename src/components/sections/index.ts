@@ -1,0 +1,9 @@
+export { HeroSection } from "./HeroSection";
+export { AboutMe } from "./AboutMe";
+export { Skills } from "./Skills";
+export { Services } from "./Services";
+export { Portfolio } from "./Portfolio";
+export { Testimonials } from "./Testimonials";
+export { Blogs } from "./Blog";
+export { Contacts } from "./Contact";
+export { Footer } from "./Footer";

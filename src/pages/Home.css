@@ -1,0 +1,52 @@
+/*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+
+/*Main Color : #087f5b
+      Gray Color :#343a40*/
+.logo {
+  width: 40px;
+  font-weight: 600;
+}
+.container {
+  margin: 0 auto;
+  padding: 24px;
+  width: 1000px;
+
+  box-sizing: border-box;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe8cc;
+  border-radius: 50px;
+}
+
+h1 {
+  color: #e8590c;
+  text-align: center;
+  padding: 48px;
+  margin-bottom: 5px;
+  align-items: center;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.hr {
+  width: 1000px;
+}
+.start {
+  font-style: italic;
+  text-align: center;
+  padding: 12px;
+  margin: 0;
+  width: 800px;
+  margin-bottom: 12px;
+  border-radius: 50px;
+  background-color: #ffd8a8;
+}
