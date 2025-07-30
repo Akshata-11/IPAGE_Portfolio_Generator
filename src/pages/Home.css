@@ -47,6 +47,7 @@ h1 {
   margin: 0;
   width: 800px;
   margin-bottom: 12px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   background-color: #ffd8a8;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }

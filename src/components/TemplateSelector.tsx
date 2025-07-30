@@ -11,7 +11,7 @@ export const TemplateSelector: React.FC<Props> = ({
 }) => {
   return (
     <div>
-      <h2>Select a Template</h2>
+      <h2 style={{ margin: "24px" }}>Select a Template</h2>
       <div style={{ display: "flex", gap: "2rem" }}>
         <div
           className="template"

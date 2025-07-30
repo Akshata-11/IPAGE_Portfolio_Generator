@@ -12,7 +12,11 @@ export const Blogs: React.FC<Props> = ({ blog }) => {
   return (
     <section style={{ marginBottom: 40 }}>
       <h2>{blog.title}</h2>
-      {blog.summary && <p>{blog.summary}</p>}
+      {blog.summary && (
+        <p style={{ marginBottom: 40, letterSpacing: 1, color: "#495057" }}>
+          {blog.summary}
+        </p>
+      )}
     </section>
   );
 };

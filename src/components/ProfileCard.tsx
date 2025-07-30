@@ -25,7 +25,10 @@ export const ProfileCard: React.FC<Props> = ({ portfolio }) => {
       onClick={() => navigate(`/portfolio/${portfolio.id}`)}
     >
       <img
-        src={portfolio.hero.profileImage || "https://via.placeholder.com/80"}
+        src={
+          portfolio.hero.profileImage ||
+          "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+        }
         alt={portfolio.hero.name}
         style={{
           borderRadius: "50%",

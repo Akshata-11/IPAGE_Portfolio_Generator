@@ -12,7 +12,9 @@ export const Services: React.FC<Props> = ({ services }) => {
       {services.map((s, i) => (
         <div key={i} style={{ marginBottom: 15 }}>
           <h4>{s.title}</h4>
-          <p>{s.description}</p>
+          <p style={{ marginBottom: 40, letterSpacing: 1, color: "#495057" }}>
+            {s.description}
+          </p>
         </div>
       ))}
     </section>

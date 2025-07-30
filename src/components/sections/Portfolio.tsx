@@ -30,7 +30,10 @@ export const Portfolio: React.FC<Props> = ({ projects }) => {
             className="portfolio1"
           >
             <img
-              src={proj.image || "https://via.placeholder.com/250x150"}
+              src={
+                proj.image ||
+                "https://images.unsplash.com/photo-1527219525722-f9767a7f2884?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvamVjdHN8ZW58MHx8MHx8fDA%3D"
+              }
               alt={proj.title}
               style={{
                 width: "100%",
@@ -40,7 +43,9 @@ export const Portfolio: React.FC<Props> = ({ projects }) => {
               }}
             />
             <h4>{proj.title}</h4>
-            <p>{proj.description}</p>
+            <p style={{ letterSpacing: 1, color: "#495057" }}>
+              {proj.description}
+            </p>
           </div>
         ))}
       </div>

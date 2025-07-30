@@ -11,9 +11,12 @@ export const AboutMe: React.FC<Props> = ({ data }) => {
     <section style={{ marginBottom: 40, marginLeft: 40 }}>
       <h2>About Me</h2>
       <p>{data.bio}</p>
-      <p>
-        <strong style={{ letterSpacing: 2 }}>Email:</strong> {data.email}
-      </p>
+      {
+        <p>
+          <strong style={{ letterSpacing: 2 }}>Email:</strong> {data.email}
+        </p>
+      }
+
       <p>
         <strong style={{ letterSpacing: 2 }}>Phone:</strong> {data.phone}
       </p>
